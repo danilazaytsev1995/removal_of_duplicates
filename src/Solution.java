@@ -15,7 +15,7 @@ public class Solution {
             while (reader.ready()) {
                 lines.add(reader.readLine());
             }
-            reader.close();
+            reader.close(); //закрыл ридер
             for (String line : lines) {
                 writer.write(line);
                 writer.newLine();
